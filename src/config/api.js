@@ -2,7 +2,7 @@ import axios from "axios";
 
 // set base URL in config defaults with axios
 export const API = axios.create({
-  baseURL: "http://localhost:5001/api/v1",
+  baseURL: "https://glacial-forest-26134.herokuapp.com/api/v1",
 });
 
 // integrate default header for auth
